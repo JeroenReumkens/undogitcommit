@@ -1,0 +1,20 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint-config-airbnb", "tslint-react", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    // [tslint] Misnamed import. Import should be named 'react' but found 'React' (import-name)
+    "import-name": false,
+    // "prettier": true, (is not needed)
+    // This rule is here for now because of https://github.com/palantir/tslint-react/issues/120
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
+    ],
+    "jsx-no-lambda": false,
+    "jsx-boolean-value": false
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"]
+}
