@@ -1,0 +1,16 @@
+{
+  "presets": ["next/babel", "@zeit/next-typescript/babel"],
+  "plugins": [
+    "styled-components",
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "theme": "./theme",
+          "components": "./components"
+        }
+      }
+    ]
+  ]
+}
