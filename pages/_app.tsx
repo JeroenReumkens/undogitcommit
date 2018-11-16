@@ -28,17 +28,11 @@ export default class MyApp extends App {
           />
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-29300344-2"
+            src="https://www.googletagmanager.com/gtag/js?id=UA-129353989-1"
           />
           <script
             dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){window.dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'UA-29300344-2');
-              `
+              __html: `<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-129353989-1');</script>`
             }}
           />
         </Head>
