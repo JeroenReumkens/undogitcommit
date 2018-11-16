@@ -6,9 +6,8 @@ class hero extends React.Component {
   render() {
     return (
       <S.Wrapper>
-
         <S.Title>Undo git commits</S.Title>
-        <S.Subtitle>Shoot.. That was the wrong branch! 😱</S.Subtitle>
+        <S.Subtitle>Shoot.. That was the wrong branch!</S.Subtitle>
       </S.Wrapper>
     );
   }
